@@ -34,6 +34,7 @@ class View
        return $this->root . $this->layout;
    }
 
+
    //Путь до текущего шаблона
    private function getPathToView(string $view = ''): string
    {
